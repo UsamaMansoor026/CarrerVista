@@ -1,8 +1,13 @@
-# React + Vite
+# CareerVista
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerVista is a job portal designed to help job seekers find relevant job opportunities and employers connect with potential candidates. The platform provides an intuitive user experience with efficient job search and application features.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for jobs using keywords.
+- Apply for jobs directly through the platform.
+- User authentication for a personalized experience.
+
+## Tech Stack
+
+- **Frontend**: React, Redux, Tailwind CSS

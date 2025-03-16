@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-nunito-sans: "Nunito Sans", sans-serif;
+
+  /* Color Pallette */
+  --color-primary: #26baee;
+  --color-grayish: #495057;
+  --color-grayish-400: #6c757d;
+  --color-grayish-500: #4d4d4d;
+  --color-grayish-200: #b3b3b3;
+  --color-yellowish: #eec60a;
+  --color-redish: #df1b0e;
+  --color-redish-400: #f23a2e;
+  --color-footerbg: #393e46;
+  --color-orangish: #cc9966;
+  --color-purplish: rgb(181, 33, 181);
+
+  /* Breakpoints */
+  --breakpoint-xs: 2px;
+  --breakpoint-sm: 520px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
+
+* {
+  font-family: var(--font-nunito-sans);
+}
+
+@layer utilities {
+  .global-padding {
+    @apply xs:px-3 sm:px-5 md:px-12 lg:px-16;
+  }
+}
+
+.form {
+  box-shadow: 20px 20px 41px #bdbbbb, -20px -20px 41px #ffffff;
+}
